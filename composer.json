@@ -1,0 +1,25 @@
+{
+    "name": "yavin/php-paczka-w-ruchu",
+    "description": "Library that simplifies integration with Polish logistic service Paczka w Ruchu API",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {"name": "Yavin", "email": "yavin.yavin@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.4",
+        "psr/log": "^1.0",
+        "symfony/options-resolver": "^3.0",
+        "symfony/property-access": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "Yavin\\PaczkaWRuchu\\": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
